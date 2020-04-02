@@ -274,7 +274,7 @@ section .heading h2{
 }
 
 
-/* RECOMMANDATIONS */
+/* Citation du jours */
 #recommandations{
     background: #fff;
 }
@@ -323,4 +323,20 @@ footer .fas:hover{
 footer h5{
     color: #fff;
     font-weight: normal;
+}
+.reseaux
+{
+    width: 238px;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.fa-github
+{
+    color: #000;
+}
+.fa-github:hover
+{
+    color: #333;
 }
