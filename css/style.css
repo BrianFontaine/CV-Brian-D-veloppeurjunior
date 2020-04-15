@@ -210,6 +210,64 @@ section .heading h2{
 .timeline-heading h4{
      color: #d82c2e;
 }
+@media (max-width: 700px) {
+    .timeline-panel:after
+    {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto;  
+    }
+
+    img
+    {
+        width: 150px;
+    }
+
+    .timeline-panel-container {
+        width: 100%;
+        float: right;
+        margin-right: -52px;
+    }
+
+    .timeline-panel-container-inverted {
+        width: 100%;
+        float: right;
+    }
+
+    .timeline::before {
+
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        content: " ";
+        width: 5px;
+        margin-left : -46%;
+        background-color: #333;
+        
+    
+    }
+    .timeline-panel-container-inverted {
+        width: 100%;
+        float: left;
+        margin-left: 18px;
+        
+    }
+    .timeline li .timeline-badge {
+        color: #d82c2e;
+        width: 50px;
+        line-height: 50px;
+        font-size: 20px;
+        text-align: center;
+        position: absolute;
+        margin-left : -55%;
+        top: 16px;
+        background-color: #ddd;
+        border-radius: 50%;
+    }
+
+  }
+
 
 
 /* EDUCATION */
@@ -228,7 +286,6 @@ section .heading h2{
     border-radius: 10px;
     border: 2px solid #ccc;
     margin-bottom: 20px;
-
 }
 .education-block h5{
     color: #888;
