@@ -42,7 +42,7 @@ $(function() {
         $(".JS")
         .css("width", current_progress + "%")
         .attr("aria-valuenow", current_progress);
-        if (current_progress >= 10)
+        if (current_progress >= 25)
             clearInterval(interval);
     }, 300);
   });
@@ -66,7 +66,7 @@ $(function() {
         $(".PHP")
         .css("width", current_progress + "%")
         .attr("aria-valuenow", current_progress);
-        if (current_progress >= 50)
+        if (current_progress >= 5)
             clearInterval(interval);
     }, 300);
   });
@@ -150,7 +150,7 @@ $(function() {
         $(".CS")
         .css("width", current_progress + "%")
         .attr("aria-valuenow", current_progress);
-        if (current_progress >= 20)
+        if (current_progress >= 10)
             clearInterval(interval);
     }, 300);
   });
