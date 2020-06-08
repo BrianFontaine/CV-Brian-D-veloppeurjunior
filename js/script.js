@@ -30,7 +30,7 @@ $(function() {
         $(".css")
         .css("width", current_progress + "%")
         .attr("aria-valuenow", current_progress);
-        if (current_progress >= 35)
+        if (current_progress >= 65)
             clearInterval(interval);
     }, 300);
   });
@@ -86,35 +86,11 @@ $(function() {
   $(function() {
     var current_progress = 0;
     var interval = setInterval(function() {
-        current_progress += 0;
-        $(".JQ")
-        .css("width", current_progress + "%")
-        .attr("aria-valuenow", current_progress);
-        if (current_progress >= 0)
-            clearInterval(interval);
-    }, 300);
-  });
-
-  $(function() {
-    var current_progress = 0;
-    var interval = setInterval(function() {
         current_progress += 5;
         $(".BS")
         .css("width", current_progress + "%")
         .attr("aria-valuenow", current_progress);
         if (current_progress >= 40)
-            clearInterval(interval);
-    }, 300);
-  });
-
-  $(function() {
-    var current_progress = 0;
-    var interval = setInterval(function() {
-        current_progress += 0;
-        $(".AG")
-        .css("width", current_progress + "%")
-        .attr("aria-valuenow", current_progress);
-        if (current_progress >= 0)
             clearInterval(interval);
     }, 300);
   });
@@ -139,18 +115,6 @@ $(function() {
         .css("width", current_progress + "%")
         .attr("aria-valuenow", current_progress);
         if (current_progress >= 65)
-            clearInterval(interval);
-    }, 300);
-  });
-
-  $(function() {
-    var current_progress = 0;
-    var interval = setInterval(function() {
-        current_progress += 5;
-        $(".CS")
-        .css("width", current_progress + "%")
-        .attr("aria-valuenow", current_progress);
-        if (current_progress >= 10)
             clearInterval(interval);
     }, 300);
   });
