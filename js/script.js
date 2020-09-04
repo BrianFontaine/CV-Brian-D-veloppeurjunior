@@ -66,7 +66,7 @@ $(function() {
         $(".PHP")
         .css("width", current_progress + "%")
         .attr("aria-valuenow", current_progress);
-        if (current_progress >= 5)
+        if (current_progress >= 35)
             clearInterval(interval);
     }, 300);
   });
