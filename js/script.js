@@ -38,7 +38,7 @@ $(function() {
   $(function() {
     var current_progress = 0;
     var interval = setInterval(function() {
-        current_progress += 1;
+        current_progress += 5;
         $(".JS")
         .css("width", current_progress + "%")
         .attr("aria-valuenow", current_progress);
@@ -66,7 +66,7 @@ $(function() {
         $(".PHP")
         .css("width", current_progress + "%")
         .attr("aria-valuenow", current_progress);
-        if (current_progress >= 35)
+        if (current_progress >= 50)
             clearInterval(interval);
     }, 300);
   });
@@ -90,7 +90,7 @@ $(function() {
         $(".BS")
         .css("width", current_progress + "%")
         .attr("aria-valuenow", current_progress);
-        if (current_progress >= 40)
+        if (current_progress >= 60)
             clearInterval(interval);
     }, 300);
   });
@@ -115,6 +115,39 @@ $(function() {
         .css("width", current_progress + "%")
         .attr("aria-valuenow", current_progress);
         if (current_progress >= 65)
+            clearInterval(interval);
+    }, 300);
+  });
+  $(function() {
+    var current_progress = 0;
+    var interval = setInterval(function() {
+        current_progress += 5;
+        $(".W10")
+        .css("width", current_progress + "%")
+        .attr("aria-valuenow", current_progress);
+        if (current_progress >= 40)
+            clearInterval(interval);
+    }, 300);
+  });
+  $(function() {
+    var current_progress = 0;
+    var interval = setInterval(function() {
+        current_progress += 5;
+        $(".Mac")
+        .css("width", current_progress + "%")
+        .attr("aria-valuenow", current_progress);
+        if (current_progress >= 80)
+            clearInterval(interval);
+    }, 300);
+  });
+  $(function() {
+    var current_progress = 0;
+    var interval = setInterval(function() {
+        current_progress += 5;
+        $(".linux")
+        .css("width", current_progress + "%")
+        .attr("aria-valuenow", current_progress);
+        if (current_progress >= 40)
             clearInterval(interval);
     }, 300);
   });
